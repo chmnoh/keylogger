@@ -37,7 +37,7 @@ CGEventRef CGEventCallback(CGEventTapProxy proxy, CGEventType type, CGEventRef e
 
 	// dirty hack for ESC keycode to reset IME to english mode.
 	if (type==kCGEventKeyDown && keyCode==53) {
-		system("issw com.apple.keylayout.ABC >/dev/null 2>&1");
+		system("delayed_switch.sh &");
 	}
 
     return event;

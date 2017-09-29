@@ -1,3 +1,5 @@
 keystroke.log
 keylogger
 .DS_Store
+nohup.out
+.gitignore
