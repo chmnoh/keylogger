@@ -11,4 +11,4 @@ if [ "$(ps -ef|grep keylogger|grep -v grep)" == "" ]; then
 fi
 ```
 
-# delayed_switch.sh should be in $PATH
+# `delayed_switch.sh` should be in $PATH !!
