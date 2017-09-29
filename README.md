@@ -10,3 +10,5 @@ if [ "$(ps -ef|grep keylogger|grep -v grep)" == "" ]; then
   nohup sudo ./keylogger &
 fi
 ```
+
+# delayed_switch.sh should be in $PATH
